@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "toolbox"
+version = "0.1.0"
+description = "A collection of utilities designed to simplify tasks and enhance the workflow"
+authors = ["Andreas Daiminger <andreas@chaosisnotrandomitisrhythmic.xyz>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyjwt = "^2.8.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
