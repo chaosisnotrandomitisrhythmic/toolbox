@@ -9,6 +9,10 @@ readme = "README.md"
 python = "^3.11"
 pyjwt = "^2.8.0"
 openai = {extras = ["datalib"], version = "^0.27.9"}
+scikit-learn = "^1.5.2"
+scikit-multilearn = "^0.2.0"
+pandas = "^2.2.3"
+scipy = "^1.14.1"
 
 [tool.poetry.group.dev.dependencies]
 black = "^23.7.0"
